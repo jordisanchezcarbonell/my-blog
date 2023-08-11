@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
+  title: 'Jordi Sánchez Blog',
   author: 'Jordi Sánchez',
   headerTitle: 'Jordi Sánchez',
   description: 'El Meu Espai Personal',
@@ -11,12 +11,10 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
+  email: 'jordigw@gmail.com',
   twitter: 'https://twitter.com/BT_Kazukun',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  youtube: 'https://www.youtube.com/@ElMovimentOndulatori',
+  linkedin: 'https://www.linkedin.com/in/jordi-s%C3%A1nchez-carbonell-baa83797/',
   locale: 'ca',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
