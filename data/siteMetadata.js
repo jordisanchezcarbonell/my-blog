@@ -1,13 +1,13 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Jordi Sánchez Blog',
+  title: 'Jordi Sánchez sBlog',
   author: 'Jordi Sánchez',
   headerTitle: 'Jordi Sánchez',
   description: 'El Meu Espai Personal',
   language: 'ca',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://my-blog-ten-amber.vercel.app',
+  siteRepo: 'https://github.com/jordisanchezcarbonell/my-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
