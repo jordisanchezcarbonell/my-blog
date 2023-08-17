@@ -1,5 +1,6 @@
 import 'css/prism.css'
 import 'katex/dist/katex.css'
+import { redirect } from 'next/navigation'
 
 import PageTitle from '@/components/PageTitle'
 import { components } from '@/components/MDXComponents'
@@ -93,6 +94,11 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
     return coreContent(authorResults as Authors)
   })
   const mainContent = coreContent(post)
+
+  if (!post) {
+    // Redirigir a la página de inicio si el post no existe
+    redirect('/not-found')
+  }
   const jsonLd = post.structuredData
   jsonLd['author'] = authorDetails.map((author) => {
     return {
