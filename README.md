@@ -21,7 +21,7 @@ Feature request? Check the past discussions to see if it has been brought up pre
 
 ## Examples V2
 
-- [Demo Blog](https://my-blog-ten-amber.vercel.app//) - this repo
+- [Demo Blog](https://jordisanchez.vercel.app///) - this repo
 - [My personal blog](https://www.timlrx.com) - modified to auto-generate blog posts with dates
 
 Using the template? Feel free to create a PR and add your blog to this list.
@@ -101,12 +101,12 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 
 ## Sample posts
 
-- [A markdown guide](https://my-blog-ten-amber.vercel.app//blog/github-markdown-guide)
-- [Learn more about images in Next.js](https://my-blog-ten-amber.vercel.app//blog/guide-to-using-images-in-nextjs)
-- [A tour of math typesetting](https://my-blog-ten-amber.vercel.app//blog/deriving-ols-estimator)
-- [Simple MDX image grid](https://my-blog-ten-amber.vercel.app//blog/pictures-of-canada)
-- [Example of long prose](https://my-blog-ten-amber.vercel.app//blog/the-time-machine)
-- [Example of Nested Route Post](https://my-blog-ten-amber.vercel.app//blog/nested-route/introducing-multi-part-posts-with-nested-routing)
+- [A markdown guide](https://jordisanchez.vercel.app///blog/github-markdown-guide)
+- [Learn more about images in Next.js](https://jordisanchez.vercel.app///blog/guide-to-using-images-in-nextjs)
+- [A tour of math typesetting](https://jordisanchez.vercel.app///blog/deriving-ols-estimator)
+- [Simple MDX image grid](https://jordisanchez.vercel.app///blog/pictures-of-canada)
+- [Example of long prose](https://jordisanchez.vercel.app///blog/the-time-machine)
+- [Example of Nested Route Post](https://jordisanchez.vercel.app///blog/nested-route/introducing-multi-part-posts-with-nested-routing)
 
 ## Quick Start Guide
 
@@ -212,7 +212,7 @@ summary: 'Looking for a performant, out of the box template, with all the best i
 images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']
 authors: ['default', 'sparrowhawk']
 layout: PostLayout
-canonicalUrl: https://my-blog-ten-amber.vercel.app//blog/introducing-tailwind-nextjs-starter-blog
+canonicalUrl: https://jordisanchez.vercel.app///blog/introducing-tailwind-nextjs-starter-blog
 ---
 ```
 
