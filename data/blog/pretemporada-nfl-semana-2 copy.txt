@@ -15,13 +15,10 @@ summary: Pretemporada de la NFL · Semana 2 de 4
 </div>
 <div className="-mx-2 flex flex-wrap justify-center overflow-hidden xl:-mx-2">
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube-nocookie.com/embed/Xe4pqyBF7OQ"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-></iframe>
+<video controls>
+  <source
+    src="/static/nfl/JaguarsvsCowboys.mp4"
+    type="video/mp4"
+  />
+</video>
 </div>
