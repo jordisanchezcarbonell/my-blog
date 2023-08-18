@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'El Meu Espai Personal',
   language: 'ca',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://my-blog-ten-amber.vercel.app',
+  siteUrl: 'https://jordisanchez.vercel.app/',
   siteRepo: 'https://github.com/jordisanchezcarbonell/my-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-jordi.png',
