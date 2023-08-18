@@ -11,6 +11,7 @@ import Footer from '@/components/Footer'
 import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
+import { i18n } from 'i18n-config'
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -57,11 +58,20 @@ export const metadata: Metadata = {
     images: [siteMetadata.socialBanner],
   },
 }
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }))
+}
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode
+  params: { lang: string }
+}) {
   return (
     <html
-      lang={siteMetadata.language}
+      lang={params.lang}
       className={`${space_grotesk.variable} scroll-smooth`}
       suppressHydrationWarning
     >
