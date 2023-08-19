@@ -138,7 +138,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                     {next && next.path && (
                       <div>
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                          Next Article
+                          ARTÍCULO SIGUIENTE
                         </h2>
                         <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                           <Link href={`/${next.path}`}>{next.title}</Link>
@@ -152,9 +152,9 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                 <Link
                   href={`/${basePath}`}
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                  aria-label="Tornar al blog"
+                  aria-label="Volver al blog"
                 >
-                  &larr; Tornar al blog
+                  &larr; Volver al blog
                 </Link>
               </div>
             </footer>

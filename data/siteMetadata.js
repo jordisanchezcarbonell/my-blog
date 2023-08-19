@@ -3,8 +3,9 @@ const siteMetadata = {
   title: 'Jordi Sánchez Blog',
   author: 'Jordi Sánchez',
   headerTitle: 'Jordi Sánchez',
-  description: 'El Meu Espai Personal',
-  language: 'ca',
+  description:
+    'Únete a nosotros mientras exploramos cómo la defensa imbatible en el campo se compara con los desafíos de la ciberseguridad en un mundo conectado. Descubre cómo ambos campos están interconectados en formas sorprendentes.',
+  language: 'es',
   theme: 'system', // system, dark or light
   siteUrl: 'https://jordisanchez.vercel.app/',
   siteRepo: 'https://github.com/jordisanchezcarbonell/my-blog',
@@ -15,7 +16,7 @@ const siteMetadata = {
   twitter: 'https://twitter.com/BT_Kazukun',
   youtube: 'https://www.youtube.com/@ElMovimentOndulatori',
   linkedin: 'https://www.linkedin.com/in/jordi-s%C3%A1nchez-carbonell-baa83797/',
-  locale: 'ca',
+  locale: 'es',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
