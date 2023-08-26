@@ -6,11 +6,11 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
-  default-src 'self';
+  default-src 'self' https://www.youtube.com/;
   script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app analytics.umami.is www.googletagmanager.com va.vercel-scripts.com;
   style-src 'self' 'unsafe-inline';
   img-src * blob: data:;
-  media-src https://jordisanchez.vercel.app/;
+  media-src https://jordisanchez.vercel.app/ https://www.youtube.com;
   connect-src *;
   font-src 'self';
 `
